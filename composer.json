@@ -1,0 +1,24 @@
+{
+    "name": "attitude/php",
+    "description": "Collection of missing methods in PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Adamko",
+            "email": "martinadamko.sk@gmail.com"
+        }
+    ],
+    "require": {},
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/attitude/index-php"
+        }
+    ],
+    "require-dev": {
+        "attitude/index-php": "dev-main"
+    },
+    "autoload": {
+        "files": ["src/index.php"]
+    }
+}
