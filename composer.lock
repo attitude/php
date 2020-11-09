@@ -13,14 +13,15 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/attitude/index-php.git",
-                "reference": "059a37fd2fe15620da9458f099bbd8b932790760"
+                "reference": "fbd281b278a73f3c3eedc746fdb702dc81b96b7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/attitude/index-php/zipball/059a37fd2fe15620da9458f099bbd8b932790760",
-                "reference": "059a37fd2fe15620da9458f099bbd8b932790760",
+                "url": "https://api.github.com/repos/attitude/index-php/zipball/fbd281b278a73f3c3eedc746fdb702dc81b96b7a",
+                "reference": "fbd281b278a73f3c3eedc746fdb702dc81b96b7a",
                 "shasum": ""
             },
+            "default-branch": true,
             "type": "devtool",
             "autoload": {
                 "files": [
@@ -41,7 +42,7 @@
                 "source": "https://github.com/attitude/index-php/tree/main",
                 "issues": "https://github.com/attitude/index-php/issues"
             },
-            "time": "2020-10-08T20:01:31+00:00"
+            "time": "2020-10-13T13:19:13+00:00"
         }
     ],
     "aliases": [],
@@ -53,5 +54,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "1.1.0"
+    "plugin-api-version": "2.0.0"
 }
