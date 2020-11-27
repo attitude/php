@@ -19,11 +19,11 @@ function array_pluck(array &$array, $paths = null) {
       $value =& $array[$key];
 
       if (count($path) > 0) {
-          try {
-                array_pluck($value, $path);
-          } catch (\Throwable $e) {
-              throw new \Exception("Unable to pluck path ".implode('.', $path)." from array", 400, $e);
-          }
+        try {
+          array_pluck($value, $path);
+        } catch (\Throwable $e) {
+          throw new \Exception("Unable to pluck path ".implode('.', $path)." from array", 400, $e);
+        }
       }
 
       $new[$key] = $value;
